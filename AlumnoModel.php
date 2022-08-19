@@ -97,5 +97,4 @@ class AlumnoModel
 }
 
 
-// $objAlumno = new Alumno();
-// $objAlumno->registrarAlumnos($_POST['nombre'],$_POST['ap'],$_POST['correo']);
+
