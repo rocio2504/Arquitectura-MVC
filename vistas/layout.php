@@ -31,7 +31,13 @@
       padding: 15px;
     }
     
-    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
     }
   </style>
 </head>
@@ -54,7 +60,9 @@
         <li><a href="#">DOCENTES</a></li>
         <li><a href="#">PROGRAMACION ACADEMICO</a></li>
       </ul>
-      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
     </div>
   </div>
 </nav>
