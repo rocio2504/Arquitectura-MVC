@@ -71,7 +71,9 @@ if(isset($_GET['action'])){
 			echo 'registrarCurso';
 			break;
 
-		
+		case 'listarCurso':
+			echo 'listarCurso';
+			break;
 
 
 		default:
